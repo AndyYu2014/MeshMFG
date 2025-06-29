@@ -14,7 +14,7 @@
   "doctype": "Client Script",
   "dt": "Item",
   "enabled": 1,
-  "script": "frappe.ui.form.on('Item', {\n  custom_surfacetreatment: function(frm) {\n    update_description(frm);\n  },\n\n  custom_pitch: function(frm) {\n    update_description(frm);\n  },\n\n  item_group: function(frm) {\n    update_description(frm);\n  },\n\n  onload: function(frm) {\n    update_description(frm);\n  }\n});\n\nfunction update_description(frm) {\n  const surface = frm.doc.custom_surfacetreatment || '';\n  const pitch = frm.doc.custom_pitch || '';\n  const group = frm.doc.item_group || '';\n\n  const prefix = group.length >= 2 ? group.substring(0, 2) : group;\n\n  if (surface && pitch && prefix) {\n    frm.set_value('description', `${prefix}-${surface}-${pitch}`);\n  }\n}",
+  "script": "frappe.ui.form.on('Item', {\n  custom_surfacetreatment: function(frm) {\n    update_description(frm);\n  },\n\n  custom_holepitch: function(frm) {\n    update_description(frm);\n  },\n\n  item_group: function(frm) {\n    update_description(frm);\n  },\n\n  onload: function(frm) {\n    update_description(frm);\n  }\n});\n\nfunction update_description(frm) {\n  const surface = frm.doc.custom_surfacetreatment || '';\n  const pitch = frm.doc.custom_holepitch || '';\n  const group = frm.doc.item_group || '';\n\n  const prefix = group.length >= 2 ? group.substring(0, 2) : group;\n\n  if (surface && pitch && prefix) {\n    const desc = `${prefix}-${surface}-${pitch}`;\n    frm.set_value('description', desc);\n    frm.refresh_field('description');\n    console.log('Updated description to:', desc);\n  } else {\n    console.log('Not enough info to update description:', { prefix, surface, pitch });\n  }\n}"
   "view": "Form",
   "name": "AutoGenerateItemDescription"
 }
