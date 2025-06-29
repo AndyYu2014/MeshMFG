@@ -9,5 +9,13 @@
   "name": "DisplayItemMeshColumnByGroup",
   "script": "frappe.ui.form.on('Item', {\r\n  item_group: function(frm) {\r\n    toggle_mesh_fields(frm);\r\n  },\r\n\r\n  onload: function(frm) {\r\n    toggle_mesh_fields(frm);\r\n  }\r\n});\r\n\r\nfunction toggle_mesh_fields(frm) {\r\n  const mesh_item_groups = [\r\n    \"圆形冲孔网\",\r\n    \"异形孔冲孔网\"\r\n  ];\r\n\r\n  const hidden = mesh_item_groups.includes(frm.doc.item_group);\r\n  const mesh_fields = [\r\n    \"custom_holediameter\",\r\n    \"custom_surfacetreatment\",\r\n    \"mesh_opening\",\r\n    \"mesh_thickness\",\r\n    \"mesh_material\"\r\n  ];\r\n\r\n  mesh_fields.forEach(field => {\r\n    frm.set_df_property(field, 'hidden', hidden);\r\n    });\r\n\r\n  frm.refresh_fields(mesh_fields);\r\n}\r\n",
   "view": "Form"
- }
+ },
+ {
+  "doctype": "Client Script",
+  "dt": "Item",
+  "enabled": 1,
+  "script": "frappe.ui.form.on('Item', {\n  custom_surfacetreatment: function(frm) {\n    update_description(frm);\n  },\n\n  custom_pitch: function(frm) {\n    update_description(frm);\n  },\n\n  item_group: function(frm) {\n    update_description(frm);\n  },\n\n  onload: function(frm) {\n    update_description(frm);\n  }\n});\n\nfunction update_description(frm) {\n  const surface = frm.doc.custom_surfacetreatment || '';\n  const pitch = frm.doc.custom_pitch || '';\n  const group = frm.doc.item_group || '';\n\n  const prefix = group.length >= 2 ? group.substring(0, 2) : group;\n\n  if (surface && pitch && prefix) {\n    frm.set_value('description', `${prefix}-${surface}-${pitch}`);\n  }\n}",
+  "view": "Form",
+  "name": "AutoGenerateItemDescription"
+}
 ]
