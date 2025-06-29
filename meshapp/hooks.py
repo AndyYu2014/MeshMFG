@@ -68,8 +68,11 @@ app_license = "mit"
 # ----------
 
 # automatically create page for each record of this doctype
-# website_generators = ["Web Page"]
-
+# website_generators = ["Web Page"]
+fixtures = [
+        {"doctype":"Custom Field", "filters":[["dt","=","Item"]]},
+        {"doctype":"Property Setter", "filters":[["doc_type","=","Item"]]}
+           ]
 # Jinja
 # ----------
 
