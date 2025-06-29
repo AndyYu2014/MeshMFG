@@ -4,14 +4,14 @@
   { "doctype": "Item Group", "name": "Iron Art Fence", "item_group_name": "Iron Art Fence", "is_group": 0, "parent_item_group": "All Item Groups" },
   { "doctype": "Item Group", "name": "Traffic Barrier", "item_group_name": "Traffic Barrier", "is_group": 0, "parent_item_group": "All Item Groups" },
   { "doctype": "Item Group", "name": "Round Perforated Mesh", "item_group_name": "Round Perforated Mesh", "is_group": 0, "parent_item_group": "All Item Groups" },
-  { "doctype": "Item Group", "name": "Shaped Perforated Mesh", "item_group_name": "Shaped Perforated Mesh", "is_group": 0, "parent_item_group": "All Item Groups" },
+  { "doctype": "Item Group", "name": "Irregular Perforated Mesh", "item_group_name": "Irregular Perforated Mesh", "is_group": 0, "parent_item_group": "All Item Groups" },
   { "doctype": "Item Group", "name": "Slide Rail Plate", "item_group_name": "Slide Rail Plate", "is_group": 0, "parent_item_group": "All Item Groups" },
   { "doctype": "Item Group", "name": "Stair Plate", "item_group_name": "Stair Plate", "is_group": 0, "parent_item_group": "All Item Groups" },
   { "doctype": "Item Group", "name": "Panel Mesh", "item_group_name": "Panel Mesh", "is_group": 0, "parent_item_group": "All Item Groups" },
   { "doctype": "Item Group", "name": "Welded Mesh", "item_group_name": "Welded Mesh", "is_group": 0, "parent_item_group": "All Item Groups" },
   { "doctype": "Item Group", "name": "Galvanized Mesh", "item_group_name": "Galvanized Mesh", "is_group": 0, "parent_item_group": "All Item Groups" },
   { "doctype": "Item Group", "name": "Construction Wire Mesh", "item_group_name": "Construction Wire Mesh", "is_group": 0, "parent_item_group": "All Item Groups" },
-  { "doctype": "Item Group", "name": "Wire Panels", "item_group_name": "Wire Panels", "is_group": 0, "parent_item_group": "All Item Groups" },
+  { "doctype": "Item Group", "name": "Wire Panel", "item_group_name": "Wire Panel", "is_group": 0, "parent_item_group": "All Item Groups" },
   { "doctype": "Item Group", "name": "Stainless Window Screen", "item_group_name": "Stainless Window Screen", "is_group": 0, "parent_item_group": "All Item Groups" },
   { "doctype": "Item Group", "name": "Painted Window Screen", "item_group_name": "Painted Window Screen", "is_group": 0, "parent_item_group": "All Item Groups" },
   { "doctype": "Item Group", "name": "Mesh Cylinder", "item_group_name": "Mesh Cylinder", "is_group": 0, "parent_item_group": "All Item Groups" },
@@ -19,5 +19,5 @@
   { "doctype": "Item Group", "name": "Embossed Mesh", "item_group_name": "Embossed Mesh", "is_group": 0, "parent_item_group": "All Item Groups" },
   { "doctype": "Item Group", "name": "Bent Welded Panels", "item_group_name": "Bent Welded Panels", "is_group": 0, "parent_item_group": "All Item Groups" },
   { "doctype": "Item Group", "name": "Plastic Frame Mesh", "item_group_name": "Plastic Frame Mesh", "is_group": 0, "parent_item_group": "All Item Groups" },
-  { "doctype": "Item Group", "name": "Structural Mesh Basket", "item_group_name": "Structural Mesh Basket", "is_group": 0, "parent_item_group": "All Item Groups" }
+  { "doctype": "Item Group", "name": "Structural Basket", "item_group_name": "Structural Basket", "is_group": 0, "parent_item_group": "All Item Groups" }
 ]
