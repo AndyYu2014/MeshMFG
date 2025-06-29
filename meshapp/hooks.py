@@ -71,7 +71,10 @@ app_license = "mit"
 # website_generators = ["Web Page"]
 fixtures = [
         {"doctype":"Custom Field", "filters":[["dt","=","Item"]]},
-        {"doctype":"Property Setter", "filters":[["doc_type","=","Item"]]}
+        {"doctype":"Property Setter", "filters":[["doc_type","=","Item"]]},
+        "Item Group",
+        "Translation",
+        {"doctype": "Client Script", "filters": [["dt", "=", "Item"]]}
            ]
 # Jinja
 # ----------

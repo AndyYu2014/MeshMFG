@@ -1,42 +1,13 @@
 [
-  {
-    "doctype": "Client Script",
-    "name": "Item-Mesh Toggle",
-    "dt": "Item",
-    "enabled": 1,
-    "script_type": "Client",
-    "script": 
-"frappe.ui.form.on('Item', {\n\
-  item_group: function(frm) {\n\
-    toggle_mesh_fields(frm);\n\
-  },\n\
-\n\
-  onload: function(frm) {\n\
-    toggle_mesh_fields(frm);\n\
-  }\n\
-});\n\
-\n\
-function toggle_mesh_fields(frm) {\n\
-  const mesh_item_groups = [\n\
-    \"圆形冲孔网\",\n\
-    \"异形孔冲孔网\" 
-  ];\n\
-\n\
-  const show = mesh_item_groups.includes(frm.doc.item_group);\n\
-\n\
-  const mesh_fields = [\n\
-    \"custom_holediameter\",\n\
-    \"custom_surfacetreatment\",\n\
-    \"mesh_opening\",\n\
-    \"mesh_thickness\",\n\
-    \"mesh_material\"\n\
-  ];\n\
-\n\
-  mesh_fields.forEach(field => {\n\
-    frm.set_df_property(field, 'hidden', !show);\n\
-  });\n\
-\n\
-  frm.refresh_fields();\n\
-}"
-  }
+ {
+  "docstatus": 0,
+  "doctype": "Client Script",
+  "dt": "Item",
+  "enabled": 1,
+  "modified": "2025-06-30 03:22:40.109409",
+  "module": "Stock",
+  "name": "testscript",
+  "script": "frappe.ui.form.on('Item', {\r\n  item_group: function(frm) {\r\n    toggle_mesh_fields(frm);\r\n  },\r\n\r\n  onload: function(frm) {\r\n    toggle_mesh_fields(frm);\r\n  }\r\n});\r\n\r\nfunction toggle_mesh_fields(frm) {\r\n  const mesh_item_groups = [\r\n    \"圆形冲孔网\",\r\n    \"异形孔冲孔网\"\r\n  ];\r\n\r\n  const show = mesh_item_groups.includes(frm.doc.item_group);\r\n  console.log(\"show mesh fields?\", show);\r\n\r\n  const mesh_fields = [\r\n    \"custom_holediameter\",\r\n    \"custom_surfacetreatment\",\r\n    \"mesh_opening\",\r\n    \"mesh_thickness\",\r\n    \"mesh_material\"\r\n  ];\r\n\r\n  mesh_fields.forEach(field => {\r\n    console.log(\"set field:\", field, \"hidden?\", !show);\r\n    frm.set_df_property(field, 'hidden', true);\r\n    });\r\n\r\n  frm.refresh_fields(mesh_fields);\r\n}\r\n",
+  "view": "Form"
+ }
 ]
