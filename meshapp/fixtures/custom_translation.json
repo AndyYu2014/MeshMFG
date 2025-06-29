@@ -1,0 +1,23 @@
+[
+  { "doctype": "Custom Translation", "language": "zh", "source_text": "Frame Fence Mesh", "translated_text": "框架护栏网" },
+  { "doctype": "Custom Translation", "language": "zh", "source_text": "Double Wire Fence", "translated_text": "双边丝护网" },
+  { "doctype": "Custom Translation", "language": "zh", "source_text": "Iron Art Fence", "translated_text": "铁艺围栏" },
+  { "doctype": "Custom Translation", "language": "zh", "source_text": "Traffic Barrier", "translated_text": "铁马" },
+  { "doctype": "Custom Translation", "language": "zh", "source_text": "Round Perforated Mesh", "translated_text": "圆形冲孔网" },
+  { "doctype": "Custom Translation", "language": "zh", "source_text": "Shaped Perforated Mesh", "translated_text": "异形孔冲孔网" },
+  { "doctype": "Custom Translation", "language": "zh", "source_text": "Slide Rail Plate", "translated_text": "滑道板" },
+  { "doctype": "Custom Translation", "language": "zh", "source_text": "Stair Plate", "translated_text": "步梯板" },
+  { "doctype": "Custom Translation", "language": "zh", "source_text": "Panel Mesh", "translated_text": "面板网" },
+  { "doctype": "Custom Translation", "language": "zh", "source_text": "Welded Mesh", "translated_text": "电焊网" },
+  { "doctype": "Custom Translation", "language": "zh", "source_text": "Galvanized Mesh", "translated_text": "镀锌焊接网" },
+  { "doctype": "Custom Translation", "language": "zh", "source_text": "Construction Wire Mesh", "translated_text": "建筑钢丝网" },
+  { "doctype": "Custom Translation", "language": "zh", "source_text": "Wire Panels", "translated_text": "网片" },
+  { "doctype": "Custom Translation", "language": "zh", "source_text": "Stainless Window Screen", "translated_text": "不锈钢窗纱" },
+  { "doctype": "Custom Translation", "language": "zh", "source_text": "Painted Window Screen", "translated_text": "烤漆窗纱" },
+  { "doctype": "Custom Translation", "language": "zh", "source_text": "Mesh Cylinder", "translated_text": "网筒" },
+  { "doctype": "Custom Translation", "language": "zh", "source_text": "Filter Core", "translated_text": "滤芯" },
+  { "doctype": "Custom Translation", "language": "zh", "source_text": "Embossed Mesh", "translated_text": "拨花网" },
+  { "doctype": "Custom Translation", "language": "zh", "source_text": "Bent Welded Panels", "translated_text": "折弯焊接网片" },
+  { "doctype": "Custom Translation", "language": "zh", "source_text": "Plastic Frame Mesh", "translated_text": "注塑边框网" },
+  { "doctype": "Custom Translation", "language": "zh", "source_text": "Structural Mesh Basket", "translated_text": "结构网篮" }
+]
