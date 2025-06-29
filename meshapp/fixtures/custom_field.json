@@ -257,7 +257,7 @@
   "insert_after": "custom_holetype",
   "is_system_generated": 0,
   "is_virtual": 0,
-  "label": "HoleType",
+  "label": "HoleDiameter",
   "length": 0,
   "link_filters": null,
   "mandatory_depends_on": null,
