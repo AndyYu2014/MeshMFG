@@ -1,23 +1,150 @@
 [
-  { "doctype": "Item Group", "item_group_name": "Frame Fence Mesh", "is_group": 0, "parent_item_group": "All Item Groups" },
-  { "doctype": "Item Group", "item_group_name": "Double Wire Fence", "is_group": 0, "parent_item_group": "All Item Groups" },
-  { "doctype": "Item Group", "item_group_name": "Iron Art Fence", "is_group": 0, "parent_item_group": "All Item Groups" },
-  { "doctype": "Item Group", "item_group_name": "Traffic Barrier", "is_group": 0, "parent_item_group": "All Item Groups" },
-  { "doctype": "Item Group", "item_group_name": "Round Perforated Mesh", "is_group": 0, "parent_item_group": "All Item Groups" },
-  { "doctype": "Item Group", "item_group_name": "Shaped Perforated Mesh", "is_group": 0, "parent_item_group": "All Item Groups" },
-  { "doctype": "Item Group", "item_group_name": "Slide Rail Plate", "is_group": 0, "parent_item_group": "All Item Groups" },
-  { "doctype": "Item Group", "item_group_name": "Stair Plate", "is_group": 0, "parent_item_group": "All Item Groups" },
-  { "doctype": "Item Group", "item_group_name": "Panel Mesh", "is_group": 0, "parent_item_group": "All Item Groups" },
-  { "doctype": "Item Group", "item_group_name": "Welded Mesh", "is_group": 0, "parent_item_group": "All Item Groups" },
-  { "doctype": "Item Group", "item_group_name": "Galvanized Mesh", "is_group": 0, "parent_item_group": "All Item Groups" },
-  { "doctype": "Item Group", "item_group_name": "Construction Wire Mesh", "is_group": 0, "parent_item_group": "All Item Groups" },
-  { "doctype": "Item Group", "item_group_name": "Wire Panels", "is_group": 0, "parent_item_group": "All Item Groups" },
-  { "doctype": "Item Group", "item_group_name": "Stainless Window Screen", "is_group": 0, "parent_item_group": "All Item Groups" },
-  { "doctype": "Item Group", "item_group_name": "Painted Window Screen", "is_group": 0, "parent_item_group": "All Item Groups" },
-  { "doctype": "Item Group", "item_group_name": "Mesh Cylinder", "is_group": 0, "parent_item_group": "All Item Groups" },
-  { "doctype": "Item Group", "item_group_name": "Filter Core", "is_group": 0, "parent_item_group": "All Item Groups" },
-  { "doctype": "Item Group", "item_group_name": "Embossed Mesh", "is_group": 0, "parent_item_group": "All Item Groups" },
-  { "doctype": "Item Group", "item_group_name": "Bent Welded Panels", "is_group": 0, "parent_item_group": "All Item Groups" },
-  { "doctype": "Item Group", "item_group_name": "Plastic Frame Mesh", "is_group": 0, "parent_item_group": "All Item Groups" },
-  { "doctype": "Item Group", "item_group_name": "Structural Mesh Basket", "is_group": 0, "parent_item_group": "All Item Groups" }
+  {
+    "doctype": "Item Group",
+    "name": "item_group_frame_fence_mesh",
+    "item_group_name": "Frame Fence Mesh",
+    "is_group": 0,
+    "parent_item_group": "All Item Groups"
+  },
+  {
+    "doctype": "Item Group",
+    "name": "item_group_double_wire_fence",
+    "item_group_name": "Double Wire Fence",
+    "is_group": 0,
+    "parent_item_group": "All Item Groups"
+  },
+  {
+    "doctype": "Item Group",
+    "name": "item_group_wrought_iron_fence",
+    "item_group_name": "Wrought Iron Fence",
+    "is_group": 0,
+    "parent_item_group": "All Item Groups"
+  },
+  {
+    "doctype": "Item Group",
+    "name": "item_group_metal_barrier",
+    "item_group_name": "Metal Barrier",
+    "is_group": 0,
+    "parent_item_group": "All Item Groups"
+  },
+  {
+    "doctype": "Item Group",
+    "name": "item_group_round_perforated_mesh",
+    "item_group_name": "Round Perforated Mesh",
+    "is_group": 0,
+    "parent_item_group": "All Item Groups"
+  },
+  {
+    "doctype": "Item Group",
+    "name": "item_group_irregular_perforated_mesh",
+    "item_group_name": "Irregular Perforated Mesh",
+    "is_group": 0,
+    "parent_item_group": "All Item Groups"
+  },
+  {
+    "doctype": "Item Group",
+    "name": "item_group_slide_plate",
+    "item_group_name": "Slide Plate",
+    "is_group": 0,
+    "parent_item_group": "All Item Groups"
+  },
+  {
+    "doctype": "Item Group",
+    "name": "item_group_stair_plate",
+    "item_group_name": "Stair Plate",
+    "is_group": 0,
+    "parent_item_group": "All Item Groups"
+  },
+  {
+    "doctype": "Item Group",
+    "name": "item_group_panel_mesh",
+    "item_group_name": "Panel Mesh",
+    "is_group": 0,
+    "parent_item_group": "All Item Groups"
+  },
+  {
+    "doctype": "Item Group",
+    "name": "item_group_welding_mesh",
+    "item_group_name": "Welding Mesh",
+    "is_group": 0,
+    "parent_item_group": "All Item Groups"
+  },
+  {
+    "doctype": "Item Group",
+    "name": "item_group_galvanized_welding_mesh",
+    "item_group_name": "Galvanized Welding Mesh",
+    "is_group": 0,
+    "parent_item_group": "All Item Groups"
+  },
+  {
+    "doctype": "Item Group",
+    "name": "item_group_construction_steel_wire_mesh",
+    "item_group_name": "Construction Steel Wire Mesh",
+    "is_group": 0,
+    "parent_item_group": "All Item Groups"
+  },
+  {
+    "doctype": "Item Group",
+    "name": "item_group_wire_mesh_panel",
+    "item_group_name": "Wire Mesh Panel",
+    "is_group": 0,
+    "parent_item_group": "All Item Groups"
+  },
+  {
+    "doctype": "Item Group",
+    "name": "item_group_stainless_steel_window_screen",
+    "item_group_name": "Stainless Steel Window Screen",
+    "is_group": 0,
+    "parent_item_group": "All Item Groups"
+  },
+  {
+    "doctype": "Item Group",
+    "name": "item_group_painted_window_screen",
+    "item_group_name": "Painted Window Screen",
+    "is_group": 0,
+    "parent_item_group": "All Item Groups"
+  },
+  {
+    "doctype": "Item Group",
+    "name": "item_group_mesh_tube",
+    "item_group_name": "Mesh Tube",
+    "is_group": 0,
+    "parent_item_group": "All Item Groups"
+  },
+  {
+    "doctype": "Item Group",
+    "name": "item_group_filter_element",
+    "item_group_name": "Filter Element",
+    "is_group": 0,
+    "parent_item_group": "All Item Groups"
+  },
+  {
+    "doctype": "Item Group",
+    "name": "item_group_embossed_mesh",
+    "item_group_name": "Embossed Mesh",
+    "is_group": 0,
+    "parent_item_group": "All Item Groups"
+  },
+  {
+    "doctype": "Item Group",
+    "name": "item_group_bending_welding_mesh",
+    "item_group_name": "Bending Welding Mesh",
+    "is_group": 0,
+    "parent_item_group": "All Item Groups"
+  },
+  {
+    "doctype": "Item Group",
+    "name": "item_group_injection_molded_frame_mesh",
+    "item_group_name": "Injection Molded Frame Mesh",
+    "is_group": 0,
+    "parent_item_group": "All Item Groups"
+  },
+  {
+    "doctype": "Item Group",
+    "name": "item_group_structural_basket",
+    "item_group_name": "Structural Basket",
+    "is_group": 0,
+    "parent_item_group": "All Item Groups"
+  }
 ]
+
