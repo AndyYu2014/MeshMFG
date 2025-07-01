@@ -74,7 +74,7 @@ fixtures = [
         {"doctype":"Property Setter", "filters":[["doc_type","=","Item"]]},
         "Item Group",
         "Translation",
-        {"doctype": "Client Script", "filters": [["dt", "=", "Item"]]},
+        {"doctype": "Client Script", "filters": [["dt", "in", ["Item", "Facility Settings"]]},
         {"doctype": "DocType", "filters": [["name", "like", "Facility%"]]}
            ]
 # Jinja
