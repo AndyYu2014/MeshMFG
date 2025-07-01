@@ -631,7 +631,7 @@
     "non_negative": 0,
     "oldfieldname": null,
     "oldfieldtype": null,
-    "options": "Facility",
+    "options": "Facility Settings",
     "parent": "Shopfloor Settings",
     "parentfield": "fields",
     "parenttype": "DocType",
