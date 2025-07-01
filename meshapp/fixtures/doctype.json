@@ -351,6 +351,7 @@
     "width": null
    }
   ],
+  "title_field": "facility",
   "force_re_route_to_default_view": 0,
   "grid_page_length": 50,
   "has_web_view": 0,
