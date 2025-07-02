@@ -68,15 +68,20 @@ app_license = "mit"
 # ----------
 
 # automatically create page for each record of this doctype
-# website_generators = ["Web Page"]
+# website_generators = ["Web Page"]
 fixtures = [
-        {"doctype":"Custom Field", "filters":[["dt","=","Item"]]},
-        {"doctype":"Property Setter", "filters":[["doc_type","=","Item"]]},
-        "Item Group",
-        "Translation",
-        {"doctype": "Client Script", "filters": [["dt", "in", ["Item", "Facility Settings"]]]},
-        {"doctype": "DocType", "filters": [["name", "like", "Facility%"]]}
-           ]
+    {"doctype": "Custom Field", "filters": [["dt", "=", "Item"]], "filters_name": "item_custom_field"},
+    {"doctype": "Property Setter", "filters": [["doc_type", "=", "Item"]], "filters_name": "item_property_setter"},
+    {"doctype": "Client Script", "filters": [["dt", "=", "Item"]], "filters_name": "item_client_script"},
+
+    {"doctype": "DocType", "filters": [["name", "like", "Facility%"]], "filters_name": "facilitysettings_doctype"},
+    {"doctype": "Client Script", "filters": [["dt", "=", "Facility Settings"]], "filters_name": "facilitysettings_client_script"},
+
+    {"doctype": "DocType", "filters": [["name", "like", "Shopfloor%"]], "filters_name": "shopfloorsettings_doctype"},
+    
+    {"doctype": "Item Group", "filters_name": "mdm_item_group"},
+    {"doctype": "Translation", "filters_name": "mdm_translation"}
+]
 # Jinja
 # ----------
 

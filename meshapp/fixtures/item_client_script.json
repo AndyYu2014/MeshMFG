@@ -20,16 +20,5 @@
   "name": "AutoGenerateItemDescription",
   "script": "frappe.ui.form.on('Item', {\r\n  custom_surfacetreatment: function(frm) {\r\n    update_description(frm);\r\n  },\r\n  custom_holepitch: function(frm) {\r\n    update_description(frm);\r\n  },\r\n\r\n  item_group: function(frm) {\r\n    update_description(frm);\r\n  },\r\n\r\n  onload: function(frm) {\r\n    update_description(frm);\r\n  }\r\n});\r\n\r\nfunction update_description(frm) {\r\n  const surface = frm.doc.custom_surfacetreatment || '';\r\n  const pitch = frm.doc.custom_holepitch || '';\r\n  const group = frm.doc.item_group || '';\r\n\r\n  const prefix = group.length >= 2 ? group.substring(0, 2) : group;\r\n\r\n  if (surface && pitch && prefix) {\r\n    const desc = `${prefix}-${surface}-${pitch}`;\r\n    frm.set_value('custom_description', desc);\r\n    frm.refresh_field('custom_description'); \r\n  } else {\r\n    console.log('Not enough info to update description:', { prefix, surface, pitch });\r\n  }\r\n}\r\n",
   "view": "Form"
- },
- {
-  "docstatus": 0,
-  "doctype": "Client Script",
-  "dt": "Facility Settings",
-  "enabled": 1,
-  "modified": "2025-07-01 19:43:45.906202",
-  "module": null,
-  "name": "SetDefaultCompanyForFacility",
-  "script": "frappe.ui.form.on('Facility Settings', {\n\tonload: function(frm) {\n        if (!frm.doc.company) {\n            frm.set_value('company', frappe.defaults.get_default('company'));\n        }\n    }\n})",
-  "view": "Form"
  }
 ]
