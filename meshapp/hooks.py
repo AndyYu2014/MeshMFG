@@ -74,10 +74,10 @@ fixtures = [
     {"doctype": "Property Setter", "filters": [["doc_type", "=", "Item"]], "filters_name": "item_property_setter"},
     {"doctype": "Client Script", "filters": [["dt", "=", "Item"]], "filters_name": "item_client_script"},
 
-    {"doctype": "DocType", "filters": [["name", "like", "Facility%"]], "filters_name": "facilitysettings_doctype"},
-    {"doctype": "Client Script", "filters": [["dt", "=", "Facility Settings"]], "filters_name": "facilitysettings_client_script"},
+    {"doctype": "DocType", "filters": [["name", "like", "Facility%"]], "filters_name": "facilitySettings_doctype"},
+    {"doctype": "Client Script", "filters": [["dt", "=", "Facility Settings"]], "filters_name": "facilitySettings_client_script"},
 
-    {"doctype": "DocType", "filters": [["name", "like", "Shopfloor%"]], "filters_name": "shopfloorsettings_doctype"},
+    {"doctype": "DocType", "filters": [["name", "like", "Shopfloor%"]], "filters_name": "shopfloorSettings_doctype"},
     
     {"doctype": "Item Group", "filters_name": "mdm_item_group"},
     {"doctype": "Translation", "filters_name": "mdm_translation"}
