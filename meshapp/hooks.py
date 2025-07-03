@@ -5,6 +5,8 @@ app_description = "Used for material mesh manufacturing"
 app_email = "yuweiade@gmail.com"
 app_license = "mit"
 
+app_include_modules = ["erpnext_wxwork"]
+
 # Apps
 # ------------------
 
