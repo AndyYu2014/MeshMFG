@@ -72,7 +72,7 @@ app_include_modules = ["erpnext_wxwork"]
 # automatically create page for each record of this doctype
 # website_generators = ["Web Page"]
 fixtures = [
-    {"doctype": "Workspace", "filters": [["name", "=", "FacilityManagement"]]},
+    {"doctype": "Workspace", "filters": [["name", "=", "FacilityManagement"]], "filters_name": "workspace_facilitymanagement"},
     {"doctype": "Custom Field", "filters": [["dt", "=", "Item"]], "filters_name": "item_custom_field"},
     {"doctype": "Property Setter", "filters": [["doc_type", "=", "Item"]], "filters_name": "item_property_setter"},
     {"doctype": "Client Script", "filters": [["dt", "=", "Item"]], "filters_name": "item_client_script"},
