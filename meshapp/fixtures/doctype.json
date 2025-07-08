@@ -452,7 +452,7 @@
     "non_negative": 0,
     "oldfieldname": null,
     "oldfieldtype": null,
-"options": "<div id='equipment-list' style='width:100px; height:1200px; overflow:auto; border:1px solid #ccc;'><div class='asset-icon' data-asset-id='Asset001' style='cursor:pointer; margin:5px;'><img src='/files/punch.png' width='48' height='48' /><div>冲床A</div></div><div class='asset-icon' data-asset-id='Asset002' style='cursor:pointer; margin:5px;'><img src='/files/punch.png' width='48' height='48' /><div>冲床B</div></div></div>",
+"options": "<div id='equipment-list' style='width:100px; height:1200px; overflow:auto; border:1px solid #ccc;'><div class='asset-icon' data-asset-id='Asset001' style='cursor:pointer; margin:5px;'><img src='/files/Punch.png' width='48' height='48' /><div>冲床A</div></div><div class='asset-icon' data-asset-id='Asset002' style='cursor:pointer; margin:5px;'><img src='/files/Punch.png' width='48' height='48' /><div>冲床B</div></div></div>",
     "parent": "Shopfloor Settings",
     "parentfield": "fields",
     "parenttype": "DocType",

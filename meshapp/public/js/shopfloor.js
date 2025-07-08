@@ -29,7 +29,7 @@ frappe.ui.form.on('Shopfloor', {
       const y = e.offsetY;
 
       const newIcon = document.createElement('img');
-      newIcon.src = '/files/punch.png'; // 你的资产图标路径
+      newIcon.src = '/files/Punch.png'; // 你的资产图标路径
       newIcon.style.position = 'absolute';
       newIcon.style.left = `${x}px`;
       newIcon.style.top = `${y}px`;
