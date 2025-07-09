@@ -1,5 +1,6 @@
 frappe.ui.form.on('Shopfloor Settings', {
   onload: function(frm) {
+    console.log("Shopfloor Settings JS loaded");
     const layout = document.getElementById('layout-container');
     const equipmentList = document.getElementById('equipment-list');
 
