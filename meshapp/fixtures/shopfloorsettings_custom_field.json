@@ -1,0 +1,30 @@
+[
+  {
+    "doctype": "Custom Field",
+    "dt": "Shopfloor Settings",
+    "fieldname": "layout_section",
+    "label": "车间布局",
+    "fieldtype": "Section Break",
+    "insert_after": "Facility",  // 替换成你现有最后一个字段名
+    "is_custom_field": 1
+  },
+  {
+    "doctype": "Custom Field",
+    "dt": "Shopfloor Settings",
+    "fieldname": "layout_image",
+    "label": "布局底图",
+    "fieldtype": "Attach Image",
+    "insert_after": "layout_section",
+    "is_custom_field": 1
+  },
+  {
+    "doctype": "Custom Field",
+    "dt": "Shopfloor Settings",
+    "fieldname": "asset_positions",
+    "label": "资产位置",
+    "fieldtype": "Table",
+    "options": "Shopfloor Asset Position",
+    "insert_after": "layout_image",
+    "is_custom_field": 1
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "doctype": "DocType",
+    "name": "Shopfloor Asset Position",
+    "module": "Manufacturing",
+    "custom": 1,
+    "istable": 1,
+    "fields": [
+      {
+        "fieldname": "asset",
+        "label": "Asset",
+        "fieldtype": "Link",
+        "options": "Asset",  // 如果你用的是别的资产 Doctype，替换这里
+        "reqd": 1
+      },
+      {
+        "fieldname": "pos_x",
+        "label": "X",
+        "fieldtype": "Float",
+        "reqd": 1
+      },
+      {
+        "fieldname": "pos_y",
+        "label": "Y",
+        "fieldtype": "Float",
+        "reqd": 1
+      },
+      {
+        "fieldname": "icon",
+        "label": "Icon",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "note",
+        "label": "Note",
+        "fieldtype": "Data"
+      }
+    ]
+  }
+]
