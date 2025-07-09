@@ -260,7 +260,7 @@
     "if_owner": 0,
     "import": 0,
     "match": null,
-    "parent": "Shopfloor Settings",
+    "parent": "Facility Settings",
     "parentfield": "permissions",
     "parenttype": "DocType",
     "permlevel": 0,
