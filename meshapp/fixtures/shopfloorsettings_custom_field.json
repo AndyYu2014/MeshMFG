@@ -6,7 +6,7 @@
     "name": "layout_section",
     "label": "车间布局",
     "fieldtype": "Section Break",
-    "insert_after": "Facility",
+    "insert_after": "facility",
     "is_custom_field": 1
   },
   {
