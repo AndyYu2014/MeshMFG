@@ -5,7 +5,7 @@
     "fieldname": "layout_section",
     "label": "车间布局",
     "fieldtype": "Section Break",
-    "insert_after": "Facility",  // 替换成你现有最后一个字段名
+    "insert_after": "Facility",
     "is_custom_field": 1
   },
   {
