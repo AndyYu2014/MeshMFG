@@ -10,7 +10,7 @@
         "fieldname": "asset",
         "label": "Asset",
         "fieldtype": "Link",
-        "options": "Asset",  // 如果你用的是别的资产 Doctype，替换这里
+        "options": "Asset", 
         "reqd": 1
       },
       {
