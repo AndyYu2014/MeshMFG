@@ -5,6 +5,7 @@
     "module": "Manufacturing",
     "custom": 1,
     "istable": 1,
+    "autoname": null,
     "fields": [
       {
         "fieldname": "asset",
