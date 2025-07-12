@@ -78,13 +78,13 @@ fixtures = [
     {"doctype": "Property Setter", "filters": [["doc_type", "=", "Item"]], "filters_name": "item_property_setter"},
     {"doctype": "Client Script", "filters": [["dt", "=", "Item"]], "filters_name": "item_client_script"},
 
-    {"doctype": "DocType", "filters": [["name", "like", "Facility%"]], "filters_name": "facilitysettings_Adoctype"},
+    {"doctype": "DocType", "filters": [["name", "like", "Facility%"]], "filters_name": "facilitysettings_adoctype"},
     {"doctype": "Client Script", "filters": [["dt", "=", "Facility Settings"]], "filters_name": "facilitysettings_client_script"},
 
-    {"doctype": "DocType", "filters": [["name", "=", "Shopfloor Settings"]], "filters_name": "shopfloorsettings_Adoctype"},
+    {"doctype": "DocType", "filters": [["name", "=", "Shopfloor Settings"]], "filters_name": "shopfloorsettings_adoctype"},
     {"doctype": "Custom Field", "filters": [["dt", "=", "Shopfloor Settings"]], "filters_name": "shopfloorsettings_custom_field"},
 
-    {"doctype": "DocType", "filters": [["name", "like", "Shopfloor Asset Position"]], "filters_name": "shopfloorassetposition_Adoctype"},
+    {"doctype": "DocType", "filters": [["name", "like", "Shopfloor Asset Position"]], "filters_name": "shopfloorassetposition_adoctype"},
 
     {"doctype": "Item Group", "filters_name": "mdm_item_group"},
     {"doctype": "Translation", "filters_name": "mdm_translation"}
