@@ -429,6 +429,6 @@
   "sort_order": "DESC",
   "title_field": "facility",
   "subject": "facility",
-  "subject_field": "facility",
+  "subject_field": "facility"
  }
 ]
