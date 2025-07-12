@@ -425,7 +425,7 @@
   "subject_field": null,
   "tag_fields": null,
   "timeline_field": null,
-  "title_field": null,
+  "title_field": "facility",
   "track_changes": 0,
   "track_seen": 0,
   "track_views": 0,
