@@ -1,5 +1,5 @@
 app_name = "meshapp"
-app_title = "Meshapp"
+app_title = "meshapp"
 app_publisher = "HornBill"
 app_description = "Used for material mesh manufacturing"
 app_email = "yuweiade@gmail.com"
@@ -13,15 +13,15 @@ app_include_modules = ["erpnext_wxwork"]
 # required_apps = []
 
 # Each item in the list will be shown as an app in the apps page
-# add_to_apps_screen = [
-# 	{
-# 		"name": "meshapp",
-# 		"logo": "/assets/meshapp/logo.png",
-# 		"title": "Meshapp",
-# 		"route": "/meshapp",
-# 		"has_permission": "meshapp.api.permission.has_app_permission"
-# 	}
-# ]
+ add_to_apps_screen = [
+ 	{
+ 		"name": "meshapp",
+ 		"logo": "/assets/meshapp/logo.png",
+ 		"title": "Meshapp",
+ 		"route": "/meshapp",
+ 		"has_permission": "meshapp.api.permission.has_app_permission"
+ 	}
+ ]
 
 # Includes in <head>
 # ------------------
