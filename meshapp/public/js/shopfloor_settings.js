@@ -4,10 +4,16 @@ frappe.ui.form.on('Shopfloor Settings', {
     const layout = document.getElementById('layout-container');
     const equipmentList = document.getElementById('equipment-list');
 
-    if (!layout || !equipmentList) {
-      console.warn('layout or equipment-list not found');
-      return;
-    }
+    // 直接插入图片HTML
+    const image_path = '/files/shopfloor.png';  // 确保文件已上传至该路径
+    frm.fields_dict.layout_image_html.$wrapper.html(`
+      <div id="layout-container" style="position:relative; border: 1px solid #ccc;">
+        <img src="${image_path}" style="width:100%; max-height:600px; object-fit:contain;" />
+        <div id="equipment-list" style="position:absolute; top:0; left:0;"></div>
+      </div>
+    `);
+
+
 
     // 设置资产图标为可拖动
     equipmentList.querySelectorAll('.asset-icon').forEach(asset => {

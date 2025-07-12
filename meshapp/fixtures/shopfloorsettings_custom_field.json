@@ -12,10 +12,10 @@
   {
     "doctype": "Custom Field",
     "dt": "Shopfloor Settings",
-    "fieldname": "layout_image",
-    "name": "layout_image",
+    "fieldname": "layout_image_html",
+    "name": "layout_image_html",
     "label": "布局底图",
-    "fieldtype": "Attach Image",
+    "fieldtype": "HTML",
     "insert_after": "layout_section",
     "is_custom_field": 1
   },
