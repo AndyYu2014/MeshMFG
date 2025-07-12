@@ -31,25 +31,6 @@
   "engine": "InnoDB",
   "fields": [
    {
-  "fieldname": "parent",
-  "fieldtype": "Link",
-  "options": "",  
-  "label": "Parent",
-  "hidden": 1
-    },
-    {
-  "fieldname": "parenttype",
-  "fieldtype": "Data",
-  "label": "Parent Type",
-  "hidden": 1
-    },
-    {
-  "fieldname": "parentfield",
-  "fieldtype": "Data",
-  "label": "Parent Field",
-  "hidden": 1
-    },
-    {
     "allow_bulk_edit": 0,
     "allow_in_quick_entry": 0,
     "allow_on_submit": 0,
@@ -407,7 +388,7 @@
     "if_owner": 0,
     "import": 0,
     "match": null,
-    "parent": "Shopfloor Asset Position",
+    "parent": "Shopfloor Settings",
     "parentfield": "permissions",
     "parenttype": "DocType",
     "permlevel": 0,
