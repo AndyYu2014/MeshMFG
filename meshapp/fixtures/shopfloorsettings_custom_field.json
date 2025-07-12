@@ -29,5 +29,15 @@
     "options": "Shopfloor Asset Position",
     "insert_after": "layout_image",
     "is_custom_field": 1
-  }
+  },
+    {
+    "doctype": "Custom Field",
+    "dt": "Shopfloor Settings",
+    "fieldname": "layout_image",
+    "name": "layout_image",
+    "label": "布局底图2",
+    "fieldtype": "Attach Image",
+    "insert_after": "layout_section",
+    "is_custom_field": 1
+  },
 ]
