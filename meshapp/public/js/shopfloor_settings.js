@@ -1,6 +1,6 @@
-frappe.ui.form.on('Shopfloor Settings', {
+frappe.ui.form.on('ShopfloorSettings', {
   onload: function(frm) {
-    console.log("Shopfloor Settings JS loaded");
+    console.log("ShopfloorSettings JS loaded");
 
     // 直接插入图片HTML
     const image_path = '/files/Shopfloor.png';  // 确保文件已上传至该路径
