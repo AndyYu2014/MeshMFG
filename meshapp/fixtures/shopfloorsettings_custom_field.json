@@ -1,7 +1,7 @@
 [
   {
     "doctype": "Custom Field",
-    "dt": "Shopfloor Settings",
+    "dt": "ShopfloorSettings",
     "fieldname": "layout_section",
     "name": "layout_section",
     "label": "车间布局",
@@ -11,7 +11,7 @@
   },
   {
     "doctype": "Custom Field",
-    "dt": "Shopfloor Settings",
+    "dt": "ShopfloorSettings",
     "fieldname": "layout_image_html",
     "name": "layout_image_html",
     "label": "布局底图",
@@ -21,7 +21,7 @@
   },
   {
     "doctype": "Custom Field",
-    "dt": "Shopfloor Settings",
+    "dt": "ShopfloorSettings",
     "fieldname": "asset_positions",
     "name": "Asset_positions",
     "label": "资产位置",
