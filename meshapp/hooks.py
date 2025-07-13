@@ -50,7 +50,7 @@ app_include_modules = ["erpnext_wxwork"]
 # doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}
 # doctype_calendar_js = {"doctype" : "public/js/doctype_calendar.js"}
 
-# doctype_js = {"ShopfloorSettings" : "public/js/shopfloor_settings.js"}
+doctype_js = {"ShopfloorSettings" : "public/js/shopfloor_settings.js"}
 
 # Svg Icons
 # ------------------
@@ -82,7 +82,10 @@ fixtures = [
     {"doctype": "DocType", "filters": [["name", "like", "Facility%"]], "filters_name": "facilitysettings_adoctype"},
     {"doctype": "Client Script", "filters": [["dt", "=", "Facility Settings"]], "filters_name": "facilitysettings_client_script"},
 
- 
+    {"doctype": "DocType", "filters": [["name", "=", "ShopfloorSettings"]], "filters_name": "shopfloorsettings_adoctype"},
+    {"doctype": "Custom Field", "filters": [["dt", "=", "ShopfloorSettings"]], "filters_name": "shopfloorsettings_custom_field"},
+
+    {"doctype": "DocType", "filters": [["name", "like", "Shopfloor Asset Position"]], "filters_name": "shopfloorassetposition_adoctype"},
 
     {"doctype": "Item Group", "filters_name": "mdm_item_group"},
     {"doctype": "Translation", "filters_name": "mdm_translation"}

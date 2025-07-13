@@ -1,0 +1,33 @@
+[
+  {
+    "doctype": "Custom Field",
+    "dt": "Shopfloor Settings",
+    "fieldname": "layout_section",
+    "name": "layout_section",
+    "label": "车间布局",
+    "fieldtype": "Tab Break",
+    "insert_after": "facility",
+    "is_custom_field": 1
+  },
+  {
+    "doctype": "Custom Field",
+    "dt": "Shopfloor Settings",
+    "fieldname": "layout_image_html",
+    "name": "layout_image_html",
+    "label": "布局底图",
+    "fieldtype": "HTML",
+    "insert_after": "layout_section",
+    "is_custom_field": 1
+  },
+  {
+    "doctype": "Custom Field",
+    "dt": "Shopfloor Settings",
+    "fieldname": "asset_positions",
+    "name": "Asset_positions",
+    "label": "资产位置",
+    "fieldtype": "Table",
+    "options": "Shopfloor Asset Position",
+    "insert_after": "layout_image",
+    "is_custom_field": 1
+  }
+]
