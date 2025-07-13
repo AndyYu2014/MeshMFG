@@ -50,7 +50,7 @@ app_include_modules = ["erpnext_wxwork"]
 # doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}
 # doctype_calendar_js = {"doctype" : "public/js/doctype_calendar.js"}
 
-doctype_js = {"doctype" : "meshapp/public/js/shopfloor_settings.js"}
+doctype_js = {"ShopfloorSettings" : "public/js/shopfloor_settings.js"}
 
 # Svg Icons
 # ------------------
