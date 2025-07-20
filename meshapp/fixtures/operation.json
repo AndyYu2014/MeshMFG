@@ -1,0 +1,30 @@
+[
+ {
+  "batch_size": 1,
+  "create_job_card_based_on_batch_size": 0,
+  "description": "冲孔",
+  "docstatus": 0,
+  "doctype": "Operation",
+  "is_corrective_operation": 0,
+  "modified": "2025-07-20 23:59:30.845776",
+  "name": "冲孔",
+  "quality_inspection_template": null,
+  "sub_operations": [],
+  "total_operation_time": 0.0,
+  "workstation": null
+ },
+ {
+  "batch_size": 1,
+  "create_job_card_based_on_batch_size": 0,
+  "description": "焊接",
+  "docstatus": 0,
+  "doctype": "Operation",
+  "is_corrective_operation": 0,
+  "modified": "2025-07-15 00:10:17.147596",
+  "name": "焊接",
+  "quality_inspection_template": null,
+  "sub_operations": [],
+  "total_operation_time": 0.0,
+  "workstation": null
+ }
+]

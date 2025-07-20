@@ -1,0 +1,28 @@
+[
+ {
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Workstation Type",
+  "hour_rate": 0.0,
+  "hour_rate_consumable": 0.0,
+  "hour_rate_electricity": 0.0,
+  "hour_rate_labour": 0.0,
+  "hour_rate_rent": 0.0,
+  "modified": "2025-07-15 00:10:33.136991",
+  "name": "焊接",
+  "workstation_type": "焊接"
+ },
+ {
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Workstation Type",
+  "hour_rate": 0.0,
+  "hour_rate_consumable": 0.0,
+  "hour_rate_electricity": 0.0,
+  "hour_rate_labour": 0.0,
+  "hour_rate_rent": 0.0,
+  "modified": "2025-07-21 00:03:25.712050",
+  "name": "冲床工位",
+  "workstation_type": "冲床工位"
+ }
+]
