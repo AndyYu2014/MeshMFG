@@ -74,6 +74,8 @@ app_include_modules = ["erpnext_wxwork"]
 # automatically create page for each record of this doctype
 # website_generators = ["Web Page"]
 fixtures = [ 
+    {"doctype": "UOM", "filters_name": "00uom"},
+
     {"doctype": "Company", "filters_name": "01company"},
     {"doctype": "Plant Floor", "filters_name": "01plant_floor"},
     {"doctype": "Workstation Type", "filters_name": "01workstation_type"},
