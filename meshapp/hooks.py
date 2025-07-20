@@ -75,7 +75,7 @@ app_include_modules = ["erpnext_wxwork"]
 # website_generators = ["Web Page"]
 fixtures = [ 
     {"doctype": "Company", "filters_name": "01company"},
-    {"doctype": "Plant Floor", "filters_name": "01plantfloor"},
+    {"doctype": "Plant Floor", "filters_name": "01plant_floor"},
     {"doctype": "Workstation Type", "filters_name": "01workstation_type"},
     {"doctype": "Workstation", "filters_name": "01workstation"},
 
