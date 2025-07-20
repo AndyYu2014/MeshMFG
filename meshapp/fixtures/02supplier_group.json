@@ -11,6 +11,18 @@
   "payment_terms": null,
   "supplier_group_name": "All Supplier Groups"
  },
+  {
+  "accounts": [],
+  "docstatus": 0,
+  "doctype": "Supplier Group",
+  "is_group": 0,
+  "modified": "2025-07-14 12:31:17.231522",
+  "name": "Demo Supplier Group",
+  "old_parent": "All Supplier Groups",
+  "parent_supplier_group": "All Supplier Groups",
+  "payment_terms": null,
+  "supplier_group_name": "Demo Supplier Group"
+ },
  {
   "accounts": [],
   "docstatus": 0,
@@ -58,18 +70,6 @@
   "parent_supplier_group": "All Supplier Groups",
   "payment_terms": null,
   "supplier_group_name": "Tooling/Mold"
- },
- {
-  "accounts": [],
-  "docstatus": 0,
-  "doctype": "Supplier Group",
-  "is_group": 1,
-  "modified": "2025-07-14 12:31:17.231522",
-  "name": "Demo Supplier Group",
-  "old_parent": "All Supplier Groups",
-  "parent_supplier_group": "All Supplier Groups",
-  "payment_terms": null,
-  "supplier_group_name": "Demo Supplier Group"
  },
  {
   "accounts": [],
