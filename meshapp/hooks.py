@@ -50,7 +50,7 @@ app_include_modules = ["erpnext_wxwork"]
 # doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}
 # doctype_calendar_js = {"doctype" : "public/js/doctype_calendar.js"}
 
-doctype_js = {"ShopfloorSettings" : "public/js/shopfloor_settings.js"}
+# doctype_js = {"ShopfloorSettings" : "public/js/shopfloor_settings.js"}
 
 # Svg Icons
 # ------------------
@@ -73,20 +73,10 @@ doctype_js = {"ShopfloorSettings" : "public/js/shopfloor_settings.js"}
 
 # automatically create page for each record of this doctype
 # website_generators = ["Web Page"]
-fixtures = [
-    {"doctype": "Workspace", "filters": [["name", "=", "FacilityManagement"]], "filters_name": "workspace_facilitymanagement"},
+fixtures = [ 
     {"doctype": "Custom Field", "filters": [["dt", "=", "Item"]], "filters_name": "item_custom_field"},
     {"doctype": "Property Setter", "filters": [["doc_type", "=", "Item"]], "filters_name": "item_property_setter"},
     {"doctype": "Client Script", "filters": [["dt", "=", "Item"]], "filters_name": "item_client_script"},
-
-    {"doctype": "DocType", "filters": [["name", "like", "Facility%"]], "filters_name": "facilitysettings_adoctype"},
-    {"doctype": "Client Script", "filters": [["dt", "=", "Facility Settings"]], "filters_name": "facilitysettings_client_script"},
-
-    {"doctype": "DocType", "filters": [["name", "=", "ShopfloorSettings"]], "filters_name": "shopfloorsettings_adoctype"},
-    {"doctype": "Custom Field", "filters": [["dt", "=", "ShopfloorSettings"]], "filters_name": "shopfloorsettings_custom_field"},
-
-    {"doctype": "DocType", "filters": [["name", "like", "Shopfloor Asset Position"]], "filters_name": "shopfloorassetposition_adoctype"},
-
     {"doctype": "Item Group", "filters_name": "mdm_item_group"},
     {"doctype": "Translation", "filters_name": "mdm_translation"}
 ]
