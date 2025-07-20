@@ -1,0 +1,24 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Client Script",
+  "dt": "Item",
+  "enabled": 1,
+  "modified": "2025-06-30 03:22:40.109409",
+  "module": "Stock",
+  "name": "DisplayItemMeshColumnByGroup",
+  "script": "frappe.ui.form.on('Item', {\r\n  item_group: function(frm) {\r\n    toggle_mesh_fields(frm);\r\n  },\r\n\r\n  onload: function(frm) {\r\n    toggle_mesh_fields(frm);\r\n  }\r\n});\r\n\r\nfunction toggle_mesh_fields(frm) {\r\n  const mesh_item_groups = [\r\n    \"圆形冲孔网\",\r\n    \"异形孔冲孔网\"\r\n  ];\r\n\r\n  const hidden = mesh_item_groups.includes(frm.doc.item_group);\r\n  const mesh_fields = [\r\n    \"custom_holediameter\",\r\n    \"custom_surfacetreatment\",\r\n    \"mesh_opening\",\r\n    \"mesh_thickness\",\r\n    \"mesh_material\"\r\n  ];\r\n\r\n  mesh_fields.forEach(field => {\r\n    frm.set_df_property(field, 'hidden', hidden);\r\n    });\r\n\r\n  frm.refresh_fields(mesh_fields);\r\n}\r\n",
+  "view": "Form"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Client Script",
+  "dt": "Item",
+  "enabled": 1,
+  "modified": "2025-06-30 04:30:27.861349",
+  "module": null,
+  "name": "AutoGenerateItemDescription",
+  "script": "frappe.ui.form.on('Item', {\r\n  custom_surfacetreatment: function(frm) {\r\n    update_description(frm);\r\n  },\r\n  custom_holepitch: function(frm) {\r\n    update_description(frm);\r\n  },\r\n\r\n  item_group: function(frm) {\r\n    update_description(frm);\r\n  },\r\n\r\n  onload: function(frm) {\r\n    update_description(frm);\r\n  }\r\n});\r\n\r\nfunction update_description(frm) {\r\n  const surface = frm.doc.custom_surfacetreatment || '';\r\n  const pitch = frm.doc.custom_holepitch || '';\r\n  const group = frm.doc.item_group || '';\r\n\r\n  const prefix = group.length >= 2 ? group.substring(0, 2) : group;\r\n\r\n  if (surface && pitch && prefix) {\r\n    const desc = `${prefix}-${surface}-${pitch}`;\r\n    frm.set_value('custom_description', desc);\r\n    frm.refresh_field('custom_description'); \r\n  } else {\r\n    console.log('Not enough info to update description:', { prefix, surface, pitch });\r\n  }\r\n}\r\n",
+  "view": "Form"
+ }
+]
