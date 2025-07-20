@@ -31,19 +31,6 @@
   "image": null,
   "is_group": 0,
   "item_group_defaults": [],
-  "item_group_name": "Services",
-  "modified": "2025-06-27 19:49:37.469024",
-  "name": "Services",
-  "old_parent": "All Item Groups",
-  "parent_item_group": "All Item Groups",
-  "taxes": []
- },
- {
-  "docstatus": 0,
-  "doctype": "Item Group",
-  "image": null,
-  "is_group": 0,
-  "item_group_defaults": [],
   "item_group_name": "Sub Assemblies",
   "modified": "2025-06-27 19:49:37.480581",
   "name": "Sub Assemblies",
@@ -52,19 +39,6 @@
   "taxes": []
  },
  {
-  "docstatus": 0,
-  "doctype": "Item Group",
-  "image": null,
-  "is_group": 0,
-  "item_group_defaults": [],
-  "item_group_name": "Consumable",
-  "modified": "2025-06-27 19:49:37.491505",
-  "name": "Consumable",
-  "old_parent": "All Item Groups",
-  "parent_item_group": "All Item Groups",
-  "taxes": []
- },
-  {
   "docstatus": 0,
   "doctype": "Item Group",
   "image": null,
