@@ -64,6 +64,19 @@
   "parent_item_group": "All Item Groups",
   "taxes": []
  },
+  {
+  "docstatus": 0,
+  "doctype": "Item Group",
+  "image": null,
+  "is_group": 0,
+  "item_group_defaults": [],
+  "item_group_name": "Products",
+  "modified": "2025-06-27 19:49:37.491505",
+  "name": "Products",
+  "old_parent": "All Item Groups",
+  "parent_item_group": "All Item Groups",
+  "taxes": []
+ },
  {
   "docstatus": 0,
   "doctype": "Item Group",
