@@ -68,7 +68,7 @@
   "docstatus": 0,
   "doctype": "Item Group",
   "image": null,
-  "is_group": 0,
+  "is_group": 1,
   "item_group_defaults": [],
   "item_group_name": "Products",
   "modified": "2025-06-27 19:49:37.491505",
