@@ -74,14 +74,18 @@ app_include_modules = ["erpnext_wxwork"]
 # automatically create page for each record of this doctype
 # website_generators = ["Web Page"]
 fixtures = [ 
-    {"doctype": "Custom Field", "filters": [["dt", "=", "Item"]], "filters_name": "item_custom_field"},
-    {"doctype": "Property Setter", "filters": [["doc_type", "=", "Item"]], "filters_name": "item_property_setter"},
-    {"doctype": "Client Script", "filters": [["dt", "=", "Item"]], "filters_name": "item_client_script"},
-    {"doctype": "Item Group", "filters_name": "mdm_item_group"},
-    {"doctype": "Translation", "filters_name": "mdm_translation"},
     {"doctype": "Company", "filters_name": "01company"},
+
     {"doctype": "Supplier Group", "filters_name": "02supplier_group"},
-    {"doctype": "Supplier", "filters_name": "02supplier"}
+    {"doctype": "Supplier", "filters_name": "02supplier"},
+
+    {"doctype": "Item Group", "filters_name": "03mdm_item_group"},
+    {"doctype": "Custom Field", "filters": [["dt", "=", "Item"]], "filters_name": "03item_custom_field"},
+    {"doctype": "Property Setter", "filters": [["doc_type", "=", "Item"]], "filters_name": "03item_property_setter"},
+    {"doctype": "Client Script", "filters": [["dt", "=", "Item"]], "filters_name": "03item_client_script"},
+    
+    {"doctype": "Translation", "filters_name": "99mdm_translation"}
+
 ]
 # Jinja
 # ----------
