@@ -75,6 +75,9 @@ app_include_modules = ["erpnext_wxwork"]
 # website_generators = ["Web Page"]
 fixtures = [ 
     {"doctype": "Company", "filters_name": "01company"},
+    {"doctype": "Plant Floor", "filters_name": "01plantfloor"},
+    {"doctype": "WorkstationType", "filters_name": "01workstation_type"},
+    {"doctype": "Workstation", "filters_name": "01workstation"},
 
     {"doctype": "Supplier Group", "filters_name": "02supplier_group"},
     {"doctype": "Supplier", "filters_name": "02supplier"},
@@ -83,6 +86,9 @@ fixtures = [
     {"doctype": "Custom Field", "filters": [["dt", "=", "Item"]], "filters_name": "03item_custom_field"},
     {"doctype": "Property Setter", "filters": [["doc_type", "=", "Item"]], "filters_name": "03item_property_setter"},
     {"doctype": "Client Script", "filters": [["dt", "=", "Item"]], "filters_name": "03item_client_script"},
+    {"doctype": "Item", "filters_name": "03item"},
+    
+    {"doctype": "Operation", "filters_name": "04operation"},
     
     {"doctype": "Translation", "filters_name": "99mdm_translation"}
 
