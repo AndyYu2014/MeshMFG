@@ -78,7 +78,10 @@ fixtures = [
     {"doctype": "Property Setter", "filters": [["doc_type", "=", "Item"]], "filters_name": "item_property_setter"},
     {"doctype": "Client Script", "filters": [["dt", "=", "Item"]], "filters_name": "item_client_script"},
     {"doctype": "Item Group", "filters_name": "mdm_item_group"},
-    {"doctype": "Translation", "filters_name": "mdm_translation"}
+    {"doctype": "Translation", "filters_name": "mdm_translation"},
+    {"doctype": "Company", "filters_name": "01company"},
+    {"doctype": "Supplier Group", "filters_name": "02supplier_group"},
+    {"doctype": "Supplier", "filters_name": "02supplier"}
 ]
 # Jinja
 # ----------
