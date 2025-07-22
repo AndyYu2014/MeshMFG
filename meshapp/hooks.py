@@ -76,7 +76,7 @@ app_include_modules = ["erpnext_wxwork"]
 fixtures = [ 
     {"doctype": "UOM", "filters_name": "00uom"},
 
-    {"doctype": "Company", "filters_name": "01company"},
+    #{"doctype": "Company", "filters_name": "01company"},
     {"doctype": "Plant Floor", "filters_name": "01plant_floor"},
     {"doctype": "Workstation Type", "filters_name": "01workstation_type"},
     {"doctype": "Workstation", "filters_name": "01workstation"},
