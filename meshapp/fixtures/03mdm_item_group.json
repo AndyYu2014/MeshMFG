@@ -5,7 +5,7 @@
   "image": null,
   "is_group": 1,
   "item_group_defaults": [],
-  "item_group_name": "Demo Item Groups",
+  "item_group_name": "Mesh Product Groups",
   "modified": "2025-06-27 19:49:37.420699",
   "name": "Demo Item Groups",
   "old_parent": "",
@@ -18,63 +18,11 @@
   "image": null,
   "is_group": 0,
   "item_group_defaults": [],
-  "item_group_name": "Raw Material",
-  "modified": "2025-06-27 19:49:37.458990",
-  "name": "Raw Material",
-  "old_parent": "Demo Item Groups",
-  "parent_item_group": "Demo Item Groups",
-  "taxes": []
- },
- {
-  "docstatus": 0,
-  "doctype": "Item Group",
-  "image": null,
-  "is_group": 0,
-  "item_group_defaults": [],
-  "item_group_name": "Sub Assemblies",
-  "modified": "2025-06-27 19:49:37.480581",
-  "name": "Sub Assemblies",
-  "old_parent": "Demo Item Groups",
-  "parent_item_group": "Demo Item Groups",
-  "taxes": []
- },
- {
-  "docstatus": 0,
-  "doctype": "Item Group",
-  "image": null,
-  "is_group": 1,
-  "item_group_defaults": [],
-  "item_group_name": "Products",
-  "modified": "2025-06-27 19:49:37.491505",
-  "name": "Products",
-  "old_parent": "Demo Item Groups",
-  "parent_item_group": "Demo Item Groups",
-  "taxes": []
- },
-   {
-  "docstatus": 0,
-  "doctype": "Item Group",
-  "image": null,
-  "is_group": 0,
-  "item_group_defaults": [],
-  "item_group_name": "By-Product",
-  "modified": "2025-06-27 19:49:37.491505",
-  "name": "By-Product",
-  "old_parent": "Demo Item Groups",
-  "parent_item_group": "Demo Item Groups",
-  "taxes": []
- },
- {
-  "docstatus": 0,
-  "doctype": "Item Group",
-  "image": null,
-  "is_group": 0,
-  "item_group_defaults": [],
   "item_group_name": "框架护栏网",
   "modified": "2025-06-30 02:21:39.992764",
   "name": "框架护栏网",
   "old_parent": "Products",
-  "parent_item_group": "Products",
+  "parent_item_group": "Mesh Product Groups",
   "taxes": []
  },
  {
@@ -87,7 +35,7 @@
   "modified": "2025-06-30 02:21:40.020214",
   "name": "双边丝护网",
   "old_parent": "Products",
-  "parent_item_group": "Products",
+  "parent_item_group": "Mesh Product Groups",
   "taxes": []
  },
  {
@@ -100,7 +48,7 @@
   "modified": "2025-06-30 02:21:40.037385",
   "name": "铁艺围栏",
   "old_parent": "Products",
-  "parent_item_group": "Products",
+  "parent_item_group": "Mesh Product Groups",
   "taxes": []
  },
  {
@@ -113,7 +61,7 @@
   "modified": "2025-06-30 02:21:40.052005",
   "name": "铁马",
   "old_parent": "Products",
-  "parent_item_group": "Products",
+  "parent_item_group": "Mesh Product Groups",
   "taxes": []
  },
  {
@@ -126,7 +74,7 @@
   "modified": "2025-06-30 02:21:40.081108",
   "name": "异形孔冲孔网",
   "old_parent": "Products",
-  "parent_item_group": "Products",
+  "parent_item_group": "Mesh Product Groups",
   "taxes": []
  },
  {
@@ -139,7 +87,7 @@
   "modified": "2025-06-30 02:21:40.095125",
   "name": "滑道板",
   "old_parent": "Products",
-  "parent_item_group": "Products",
+  "parent_item_group": "Mesh Product Groups",
   "taxes": []
  },
  {
@@ -152,7 +100,7 @@
   "modified": "2025-06-30 02:21:40.110604",
   "name": "步梯板",
   "old_parent": "Products",
-  "parent_item_group": "Products",
+  "parent_item_group": "Mesh Product Groups",
   "taxes": []
  },
  {
@@ -165,7 +113,7 @@
   "modified": "2025-06-30 02:21:40.124391",
   "name": "面板网",
   "old_parent": "Products",
-  "parent_item_group": "Products",
+  "parent_item_group": "Mesh Product Groups",
   "taxes": []
  },
  {
@@ -178,7 +126,7 @@
   "modified": "2025-06-30 02:21:40.138182",
   "name": "电焊网",
   "old_parent": "Products",
-  "parent_item_group": "Products",
+  "parent_item_group": "Mesh Product Groups",
   "taxes": []
  },
  {
@@ -191,7 +139,7 @@
   "modified": "2025-06-30 02:21:40.152010",
   "name": "镀锌焊接网",
   "old_parent": "Products",
-  "parent_item_group": "Products",
+  "parent_item_group": "Mesh Product Groups",
   "taxes": []
  },
  {
@@ -204,7 +152,7 @@
   "modified": "2025-06-30 02:21:40.164604",
   "name": "建筑钢丝网",
   "old_parent": "Products",
-  "parent_item_group": "Products",
+  "parent_item_group": "Mesh Product Groups",
   "taxes": []
  },
  {
@@ -217,7 +165,7 @@
   "modified": "2025-06-30 02:21:40.177969",
   "name": "网片",
   "old_parent": "Products",
-  "parent_item_group": "Products",
+  "parent_item_group": "Mesh Product Groups",
   "taxes": []
  },
  {
@@ -230,7 +178,7 @@
   "modified": "2025-06-30 02:21:40.191386",
   "name": "不锈钢窗纱",
   "old_parent": "Products",
-  "parent_item_group": "Products",
+  "parent_item_group": "Mesh Product Groups",
   "taxes": []
  },
  {
@@ -243,7 +191,7 @@
   "modified": "2025-06-30 02:21:40.205220",
   "name": "烤漆窗纱",
   "old_parent": "Products",
-  "parent_item_group": "Products",
+  "parent_item_group": "Mesh Product Groups",
   "taxes": []
  },
  {
@@ -256,7 +204,7 @@
   "modified": "2025-06-30 02:21:40.219599",
   "name": "网筒",
   "old_parent": "Products",
-  "parent_item_group": "Products",
+  "parent_item_group": "Mesh Product Groups",
   "taxes": []
  },
  {
@@ -269,7 +217,7 @@
   "modified": "2025-06-30 02:21:40.234928",
   "name": "滤芯",
   "old_parent": "Products",
-  "parent_item_group": "Products",
+  "parent_item_group": "Mesh Product Groups",
   "taxes": []
  },
  {
@@ -282,7 +230,7 @@
   "modified": "2025-06-30 02:21:40.249708",
   "name": "拨花网",
   "old_parent": "Products",
-  "parent_item_group": "Products",
+  "parent_item_group": "Mesh Product Groups",
   "taxes": []
  },
  {
@@ -295,7 +243,7 @@
   "modified": "2025-06-30 02:21:40.263504",
   "name": "折弯焊接网片",
   "old_parent": "Products",
-  "parent_item_group": "Products",
+  "parent_item_group": "Mesh Product Groups",
   "taxes": []
  },
  {
@@ -308,7 +256,7 @@
   "modified": "2025-06-30 02:21:40.278893",
   "name": "注塑边框网",
   "old_parent": "Products",
-  "parent_item_group": "Products",
+  "parent_item_group": "Mesh Product Groups",
   "taxes": []
  },
  {
@@ -321,7 +269,7 @@
   "modified": "2025-06-30 02:21:40.292146",
   "name": "结构网篮",
   "old_parent": "Products",
-  "parent_item_group": "Products",
+  "parent_item_group": "Mesh Product Groups",
   "taxes": []
  },
 {
@@ -334,7 +282,7 @@
   "modified": "2025-06-30 02:21:40.066444",
   "name": "圆形冲孔网",
   "old_parent": "Products",
-  "parent_item_group": "Products",
+  "parent_item_group": "Mesh Product Groups",
   "taxes": []
  }
 ]
