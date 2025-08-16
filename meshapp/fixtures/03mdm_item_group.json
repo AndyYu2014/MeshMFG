@@ -3,13 +3,26 @@
   "docstatus": 0,
   "doctype": "Item Group",
   "image": null,
+  "is_group": 1,
+  "item_group_defaults": [],
+  "item_group_name": "Demo Item Groups",
+  "modified": "2025-06-27 19:49:37.420699",
+  "name": "Demo Item Groups",
+  "old_parent": "",
+  "parent_item_group": "",
+  "taxes": []
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Item Group",
+  "image": null,
   "is_group": 0,
   "item_group_defaults": [],
   "item_group_name": "Raw Material",
   "modified": "2025-06-27 19:49:37.458990",
   "name": "Raw Material",
-  "old_parent": "All Item Groups",
-  "parent_item_group": "All Item Groups",
+  "old_parent": "Demo Item Groups",
+  "parent_item_group": "Demo Item Groups",
   "taxes": []
  },
  {
@@ -21,8 +34,8 @@
   "item_group_name": "Sub Assemblies",
   "modified": "2025-06-27 19:49:37.480581",
   "name": "Sub Assemblies",
-  "old_parent": "All Item Groups",
-  "parent_item_group": "All Item Groups",
+  "old_parent": "Demo Item Groups",
+  "parent_item_group": "Demo Item Groups",
   "taxes": []
  },
  {
@@ -34,8 +47,8 @@
   "item_group_name": "Products",
   "modified": "2025-06-27 19:49:37.491505",
   "name": "Products",
-  "old_parent": "All Item Groups",
-  "parent_item_group": "All Item Groups",
+  "old_parent": "Demo Item Groups",
+  "parent_item_group": "Demo Item Groups",
   "taxes": []
  },
    {
@@ -47,8 +60,8 @@
   "item_group_name": "By-Product",
   "modified": "2025-06-27 19:49:37.491505",
   "name": "By-Product",
-  "old_parent": "All Item Groups",
-  "parent_item_group": "All Item Groups",
+  "old_parent": "Demo Item Groups",
+  "parent_item_group": "Demo Item Groups",
   "taxes": []
  },
  {
