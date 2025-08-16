@@ -388,5 +388,18 @@
   "name": "ToTime_zh",
   "source_text": "To Time",
   "translated_text": "结束时间"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": null,
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "zh",
+  "modified": "2025-06-30 02:21:39.948379",
+  "name": "Projects_zh",
+  "source_text": "Projects",
+  "translated_text": "项目"
  }
 ]
