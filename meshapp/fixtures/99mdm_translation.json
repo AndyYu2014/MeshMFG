@@ -362,5 +362,31 @@
   "name": "structural_basket_en",
   "source_text": "结构网篮",
   "translated_text": "Structural Basket"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": null,
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "zh",
+  "modified": "2025-06-30 02:21:39.948379",
+  "name": "Operation_zh",
+  "source_text": "Operation",
+  "translated_text": "工序"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": null,
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "zh",
+  "modified": "2025-06-30 02:21:39.948379",
+  "name": "ToTime_zh",
+  "source_text": "To Time",
+  "translated_text": "结束时间"
  }
 ]
