@@ -89,8 +89,7 @@ fixtures = [
     {"doctype": "Client Script", "filters": [["dt", "=", "Item"]], "filters_name": "03item_client_script"},
     {"doctype": "Item", "filters_name": "03item"},
     
-    {"doctype": "Operation", "filters_name": "04operation"},
-    {"doctype": "BOM", "filters_name": "04bom"},
+    {"doctype": "Operation", "filters_name": "04operation"}, 
     
     {"doctype": "Translation", "filters_name": "99mdm_translation"}
 
