@@ -109,6 +109,7 @@
   "process_loss_qty": 0.0,
   "project": null,
   "quality_inspection_template": null,
+  "conversion_rate": 1.0,
   "quantity": 1.0,
   "raw_material_cost": 0.0,
   "rm_cost_as_per": "Valuation Rate",
