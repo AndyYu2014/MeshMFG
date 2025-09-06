@@ -90,7 +90,7 @@ fixtures = [
     {"doctype": "Item", "filters_name": "03item"},
     
     {"doctype": "Operation", "filters_name": "04operation"}, 
-    {"doctype": "BOM", "filters_name": "04bom"},
+#    {"doctype": "BOM", "filters_name": "04bom"},
     
     {"doctype": "Translation", "filters_name": "99mdm_translation"}
 
