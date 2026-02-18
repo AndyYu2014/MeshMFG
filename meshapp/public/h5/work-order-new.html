@@ -1,0 +1,88 @@
+﻿<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>新建工单 - MeshMFG</title>
+  <link rel="stylesheet" href="./assets/app.css?v=202602181000" />
+</head>
+<body>
+  <div class="app-shell">
+    <div class="logo-bar">
+      <img src="./assets/logo.png" alt="Logo" class="logo-img" />
+    </div>
+
+    <header class="top-header compact">
+      <a class="back-link" href="./work-orders.html" aria-label="返回工单管理">←</a>
+      <h1 id="page-title">新建工单</h1>
+      <span class="chip" id="draft-state">草稿</span>
+    </header>
+
+    <main class="content">
+      <section class="tabs" role="tablist">
+        <button class="tab active" data-tab="basic" type="button">基础信息</button>
+        <button class="tab" data-tab="warehouse" type="button">仓库信息</button>
+        <button class="tab" data-tab="routing" type="button">工艺路线</button>
+      </section>
+
+      <section class="tab-panel active form-card" data-panel="basic">
+        <div class="form-grid">
+          <label>成品物料号
+            <div class="dropdown-wrap" id="wrap-production-item">
+              <input id="production-item" type="text" placeholder="搜索物料..." autocomplete="off" />
+              <div class="dropdown-list" id="dd-production-item"></div>
+            </div>
+          </label>
+          <label>计划数量<input id="qty" type="number" min="0" step="0.001" placeholder="例如 200" /></label>
+          <label>原材料仓库
+            <div class="dropdown-wrap" id="wrap-source-warehouse">
+              <input id="source-warehouse" type="text" placeholder="搜索仓库..." autocomplete="off" />
+              <div class="dropdown-list" id="dd-source-warehouse"></div>
+            </div>
+          </label>
+          <label>BOM（自动带出）<input id="bom-no" type="text" placeholder="输入物料后自动查询" readonly /></label>
+        </div>
+      </section>
+
+      <section class="tab-panel form-card" data-panel="warehouse">
+        <div class="form-grid">
+          <label>成品仓库
+            <div class="dropdown-wrap" id="wrap-fg-warehouse">
+              <input id="fg-warehouse" type="text" placeholder="搜索仓库..." autocomplete="off" />
+              <div class="dropdown-list" id="dd-fg-warehouse"></div>
+            </div>
+          </label>
+          <label>中间品仓库
+            <div class="dropdown-wrap" id="wrap-wip-warehouse">
+              <input id="wip-warehouse" type="text" placeholder="搜索仓库..." autocomplete="off" />
+              <div class="dropdown-list" id="dd-wip-warehouse"></div>
+            </div>
+          </label>
+          <label>计划开始时间<input id="planned-start-date" type="datetime-local" /></label>
+        </div>
+      </section>
+
+      <section class="tab-panel form-card" data-panel="routing">
+        <div class="route-card">
+          <div class="route-header">
+            <h3>工序列表</h3>
+            <button class="ghost-btn" type="button" disabled>+ Add Row</button>
+          </div>
+          <div class="route-table-head">
+            <span>Operation</span><span>Workstation</span><span>Time</span><span>Qty</span>
+          </div>
+          <div class="route-empty">工序编辑将在下一阶段接入</div>
+        </div>
+      </section>
+
+      <p id="form-message" class="form-message"></p>
+
+      <section class="footer-actions">
+        <button type="button" class="secondary-btn" id="save-work-order">保存</button>
+        <button type="button" class="primary-btn" id="submit-work-order">提交</button>
+      </section>
+    </main>
+  </div>
+  <script src="./assets/app.js?v=202602181000"></script>
+</body>
+</html>

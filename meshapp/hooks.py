@@ -13,15 +13,15 @@ app_include_modules = ["erpnext_wxwork"]
 # required_apps = []
 
 # Each item in the list will be shown as an app in the apps page
-# add_to_apps_screen = [
-# 	{
-# 		"name": "meshapp",
-# 		"logo": "/assets/meshapp/logo.png",
-# 		"title": "Meshapp",
-# 		"route": "/meshapp",
-# 		"has_permission": "meshapp.api.permission.has_app_permission"
-# 	}
-# ]
+add_to_apps_screen = [
+	{
+		"name": "meshapp_mobile",
+		"logo": "/assets/erpnext/images/erpnext-logo.svg",
+		"title": "Manufacturing Mobile",
+		"route": "/assets/meshapp/h5/index.html",
+		"has_permission": "meshapp.api.permission.has_mobile_app_permission"
+	}
+]
 
 # Includes in <head>
 # ------------------

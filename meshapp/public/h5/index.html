@@ -1,0 +1,79 @@
+﻿<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>MeshMFG 现场作业</title>
+  <link rel="stylesheet" href="./assets/app.css?v=202602181000" />
+</head>
+<body>
+  <div class="app-shell home-shell">
+    <div class="logo-bar">
+      <img src="./assets/logo.png" alt="Logo" class="logo-img" />
+    </div>
+
+    <header class="top-header compact">
+      <h1>制造班长工作台</h1>
+    </header>
+
+    <section class="card hero-card">
+      <h2>待处理总览</h2>
+      <div class="hero-stats" id="hero-stats">
+        <article>
+          <p class="label">未开</p>
+          <p class="value" id="stat-not-started">--</p>
+        </article>
+        <article>
+          <p class="label">已开</p>
+          <p class="value" id="stat-in-progress">--</p>
+        </article>
+        <article>
+          <p class="label">异常</p>
+          <p class="value warn" id="stat-abnormal">--</p>
+        </article>
+      </div>
+    </section>
+
+    <main class="content home-content home-scroll">
+      <section class="tile-grid">
+        <a class="tile tile-accent" href="./work-orders.html">
+          <h3>工单管理</h3>
+          <p>查看工单进度、筛选日期、快速新建</p>
+        </a>
+        <a class="tile" href="#" aria-disabled="true">
+          <h3>工卡管理</h3>
+          <p>后续迭代</p>
+        </a>
+        <a class="tile" href="#" aria-disabled="true">
+          <h3>周报日报</h3>
+          <p>后续迭代</p>
+        </a>
+      </section>
+
+      <section class="card issue-panel">
+        <div class="panel-title">
+          <h2>待处理问题</h2>
+          <button type="button" class="ghost-btn" disabled>查看全部</button>
+        </div>
+        <div class="issue-list">
+          <article class="issue-item">
+            <span class="dot dot-warn"></span>
+            <div>
+              <h4>设备故障</h4>
+              <p>拉丝机 WS-08 停机 25 分钟</p>
+            </div>
+          </article>
+          <article class="issue-item">
+            <span class="dot dot-danger"></span>
+            <div>
+              <h4>不合格品</h4>
+              <p>订单 WO-2026-00014 出现 2 件 NG</p>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+  </div>
+  <script src="./assets/app.js?v=202602181000"></script>
+</body>
+</html>
