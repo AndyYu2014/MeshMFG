@@ -440,7 +440,7 @@
         if (currentName) {
           payload.name = currentName;
         }
-        var result = await apiCall('save_work_order', { payload: JSON.stringify(payload) }, 'GET');
+        var result = await apiCall('save_work_order', { payload: JSON.stringify(payload) }, 'POST');
         currentName = result.name;
         setDraftState('已保存');
         setMessage('已保存工单：' + result.name, false);
@@ -462,7 +462,7 @@
           params = { payload: JSON.stringify(getFormPayload()) };
         }
 
-        var result = await apiCall('submit_work_order', params, 'GET');
+        var result = await apiCall('submit_work_order', params, 'POST');
         currentName = result.name;
         setDraftState('已提交');
         setMessage('提交成功：' + result.name, false);
